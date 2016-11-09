@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include renametitle *.css
+recursive-include renametitle *.csv
+recursive-include renametitle *.html
+recursive-include renametitle *.ico
+recursive-include renametitle *.js
+recursive-include renametitle *.json
+recursive-include renametitle *.md
+recursive-include renametitle *.png
+recursive-include renametitle *.py
+recursive-include renametitle *.svg
+recursive-include renametitle *.txt
+recursive-exclude renametitle *.pyc
